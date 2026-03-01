@@ -1,0 +1,20 @@
+[project]
+name = "nanojellprint"
+version = "0.1.0"
+description = "Generate and send nanoparticle 3D model to Bambu Lab printer"
+requires-python = ">=3.10"
+
+dependencies = [
+    "bambulabs-api>=2.6.6",
+    "numpy>=1.26",
+    "manifold3d>=2.4",
+    "trimesh>=4.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

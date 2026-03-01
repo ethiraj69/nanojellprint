@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Generated output — don't commit renders or output files
+stl_output/
+nanoparticle.3mf
+
+# Secrets
+.env
+
+# IDE
+.vscode/
